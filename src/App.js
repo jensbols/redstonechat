@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import Pricing from "./components/Pricing";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <VideoSection />
       <Pricing />
+      <Footer />
     </div>
   );
 }
