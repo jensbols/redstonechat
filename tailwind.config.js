@@ -8,7 +8,8 @@ module.exports = {
       'redstone': '#720000',
       'blackstone': '#000000',
       'greenstone': '#077728',
-      'whitestone': '#FFFFFF'
+      'whitestone': '#FFFFFF',
+      'rederstone': '#FF0000'
     }
   },
   plugins: [],

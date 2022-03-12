@@ -23,7 +23,7 @@ export default function HeroSection() {
       </div>
 
       { /* button */}
-      <button className='relative text-whitestone mt-7 mx-auto flex bg-redstone border-redstone border-4 p-1 px-5 mt-3 rounded-lg hover:bg-red-700 mb-14'>
+      <button className='relative text-whitestone mx-auto flex bg-redstone border-redstone border-4 p-1 px-5 mt-7 rounded-lg hover:bg-red-700 mb-14'>
         APPLY FOR BETA
       </button>
     </>
