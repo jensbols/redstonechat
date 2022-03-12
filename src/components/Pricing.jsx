@@ -24,8 +24,8 @@ export default function Pricing() {
           <p className="text-blackstone pt-3">+</p>
           <p className="my-2 font-extralight">No Ads</p>
           <p className="my-2 font-extralight">Unlimited Servers</p>
-          <p className="my-2 font-extralight">No Ads</p>
-          <p className="my-2 font-extralight">No Ads</p>
+          <p className="my-2 font-extralight">Xanders Big Dick</p>
+          <p className="my-2 font-extralight">Big boi sander</p>
           <p className="text-whitestone font-semibold">Price</p>
           <p className="text-blackstone">+</p>
         </div>
