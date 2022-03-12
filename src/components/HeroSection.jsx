@@ -15,7 +15,7 @@ export default function HeroSection() {
       </div>
       { /* text under */}
       <div className='relative'>
-        <p className='text-whitestone text-xl mx-12 text-center'>
+        <p className='text-whitestone text-xl mx-12 text-center font-light'>
           Join Minecraft servers with your phone to chat, play & afk while using your phone to do what you want!</p>
         {/* Background image */}
         <img src={redstone} alt="redstone" className="absolute opacity-40 top-1 -left-24 rotate-12" />
@@ -23,7 +23,7 @@ export default function HeroSection() {
       </div>
 
       { /* button */}
-      <button className='relative text-whitestone mx-auto flex border-redstone border-4 p-1 mt-3 rounded-lg hover:bg-red-700 mb-14'>
+      <button className='relative text-whitestone mt-7 mx-auto flex bg-redstone border-redstone border-4 p-1 px-5 mt-3 rounded-lg hover:bg-red-700 mb-14'>
         APPLY FOR BETA
       </button>
     </>
