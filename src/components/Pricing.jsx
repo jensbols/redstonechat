@@ -17,10 +17,10 @@ export default function Pricing() {
 
   return (
     <>
-    <h2 className="text-whitestone text-center text-3xl mt-10 mb-3">Pricing</h2>
-      <div className="grid grid-cols-4 mx-3 pb-10">
+    <h2 className="text-whitestone text-center text-3xl mt-10 mb-3 md:text-4xl lg:text-5xl">Pricing</h2>
+      <div className="grid grid-cols-4 mx-3 pb-10 md:mx-16 md:text-lg lg:text-xl lg:max-w-5xl lg:mx-auto">
         { /* Perks */}
-        <div className="text-whitestone col-span-2 ml-3">
+        <div className="text-whitestone col-span-2 ml-3 md:space-y-4">
           <p className="text-blackstone pt-3">+</p>
           <p className="my-2 font-extralight">No Ads</p>
           <p className="my-2 font-extralight">Unlimited Servers</p>
@@ -30,7 +30,7 @@ export default function Pricing() {
           <p className="text-blackstone">+</p>
         </div>
         { /* Free */}
-        <div className="text-center">
+        <div className="text-center md:space-y-5">
           <p className="text-whitestone pt-3">FREE</p>
           <CheckorNoIcon bool={'false'} />
           <CheckorNoIcon bool={'false'} />
@@ -40,7 +40,7 @@ export default function Pricing() {
           <p className="text-blackstone">+</p>
         </div>
         { /* Premium */}
-        <div className="text-center bg-redstone rounded-lg">
+        <div className="text-center bg-redstone rounded-lg md:space-y-5 md:pb-5 md:rounded-2xl">
           <p className="text-whitestone pt-3">PREMIUM</p>
           <CheckorNoIcon bool={'true'} />
           <CheckorNoIcon bool={'true'} />
@@ -48,7 +48,6 @@ export default function Pricing() {
           <CheckorNoIcon bool={'true'} />
           <p className="text-whitestone font-light mb-3">2$</p>
           <button className="bg-greenstone text-whitestone rounded-lg mb-3 p-1.5 font-semibold">BUY NOW</button>
-          
         </div>
       </div>
     </>
