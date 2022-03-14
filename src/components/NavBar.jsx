@@ -11,8 +11,10 @@ export default function NavBar() {
         </div>
         {/* Right side */}
         <div className="hidden md:flex text-whitestone items-center mr-5 space-x-6">
-          <a href="#" className="">Apply for beta</a>
-          <a href="#" className="">Contact</a>
+          <button className="bg-redstone px-2 py-1 rounded-md">
+            <a href="#" className="text-whitestone text-xl">DISCORD</a>
+          </button>
+          {/* <a href="#" className=""></a> */}
 
         </div>
 

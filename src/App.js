@@ -7,7 +7,7 @@ import VideoSection from "./components/VideoSection";
 
 function App() {
   return (
-    <div className="static bg-blackstone ">
+    <div className="static bg-blackstone">
       <NavBar />
       <HeroSection />
       <VideoSection />
